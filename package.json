@@ -1,0 +1,31 @@
+{
+  "name": "fhir-server-tasks",
+  "version": "1.0.0",
+  "description": "Maintenance web-hooks for FHIR servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "event",
+    "hook",
+    "fhir",
+    "smart"
+  ],
+  "author": "vlad.ignatov@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "require-directory": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smart-on-fhir/fhir-server-tasks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smart-on-fhir/fhir-server-tasks/issues"
+  },
+  "homepage": "https://github.com/smart-on-fhir/fhir-server-tasks#readme"
+}
