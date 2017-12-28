@@ -16,7 +16,22 @@ module.exports = {
 
     // The format is "url (no trailing slash): fhir version integer"
     allowedServers: {
-        "https://sb-fhir-stu3.smarthealthit.org/smartstu3/open"  : 3,
-        "https://sb-fhir-dstu2.smarthealthit.org/smartdstu2/open": 2
+
+        // Current STU3 servers
+        "https://sb-fhir-stu3.smarthealthit.org/smartstu3/open": 3,
+        "https://sb-fhir-stu3.smarthealthit.org/smartstu3/data": 3,
+
+        // Current DSTU2 servers
+        "https://sb-fhir-dstu2.smarthealthit.org/smartdstu2/open": 2,
+        "https://sb-fhir-dstu2.smarthealthit.org/smartdstu2/data": 2,
+
+        // Test STU3 servers
+        "https://sbt-fhir-stu3.smarthealthit.org/smartstu3/open": 3,
+        "https://sbt-fhir-stu3.smarthealthit.org/smartstu3/data": 3,
+
+        // Test DSTU2 servers
+        "https://sbt-fhir-dstu2.smarthealthit.org/smartdstu2/open": 2,
+        "https://sbt-fhir-dstu2.smarthealthit.org/smartdstu2/data": 2
+        
     }
 };

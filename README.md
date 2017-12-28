@@ -5,7 +5,7 @@ Maintenance web-hooks for FHIR servers
 Example for broadcasting an event:
 
 ```sh
-curl -X POST http://localhost:3000/broadcast \
+curl -X POST https://tasks.smarthealthit.org/broadcast \
   -H 'content-type: application/x-www-form-urlencoded' \
   -d 'secret=our-secret\
       &event=reset\
